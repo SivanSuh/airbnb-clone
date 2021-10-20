@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 80vh;
+  margin-bottom: 40px;
+}
+.foto__wrapper {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 18px;
+}
+
+.foto__background {
+  position: absolute;
+  width: 100%;
+  top: 10vh;
+  height: 95%;
+  background-size: cover;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  z-index: 1;
+  margin-top: 50px;
+  color: white;
+  width: 100%;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-airbnb {
+  font-size: 40px;
+}
+.navbar > div :hover {
+  text-decoration: underline;
+}
+.navbar-section {
+  display: flex;
+}
+
+.header {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  text-decoration-line: none;
+}
+.btn__esnekarama {
+  padding: 15px 30px;
+  color: #bd48ab;
+  font-size: 20px;
+  border-radius: 40px;
+  background-color: white;
+  border: 0.5px solid gray;
+  outline: none;
+  margin: 10px 0;
+  transition: 0.2s linear;
+}
+.btn__esnekarama:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 1px 1px gray;
+}
+
+/*Media Query*/
+
+@media (max-width: 900px) {
+  .foto__wrapper {
+    font-size: 15px;
+  }
+}
+@media (max-width: 750px) {
+  .foto__wrapper {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar-section {
+    display: none;
+  }
+}

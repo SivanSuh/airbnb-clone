@@ -1,0 +1,16 @@
+
+.image__first{
+    width:400px;
+    height: 400px;
+    margin: 10px;
+}
+.image{
+    width: 384px;
+    height: 384px;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: .2s linear;
+}
+.image:hover{
+    transform: scale(0.9);
+}

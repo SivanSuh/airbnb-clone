@@ -1,0 +1,22 @@
+.footer{
+    background-color: #F7F7F7;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.alan{
+    margin: 15px 75px;
+}
+.title{
+    color: silver;
+}
+p{
+    padding: 5px;
+}
+div > p:hover{
+    text-decoration: underline;
+}
